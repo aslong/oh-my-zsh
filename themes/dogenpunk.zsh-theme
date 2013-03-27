@@ -9,8 +9,8 @@
 MODE_INDICATOR="%{$fg_bold[red]%}❮%{$reset_color%}%{$fg[red]%}❮❮%{$reset_color%}"
 local return_status="%{$fg[red]%}%(?..⏎)%{$reset_color%}"
 
-PROMPT='%{$fg[blue]%}%m%{$reset_color%}%{$fg_bold[white]%} ओम् %{$reset_color%}%{$fg[cyan]%}%~:%{$reset_color%}$(git_time_since_commit)$(git_prompt_info)
-%{$fg[red]%}%!%{$reset_color%} $(prompt_char) '
+PROMPT='%{$fg[red]%}%n@%{$reset_color%}%{$fg[blue]%}%m%{$reset_color%}%{$fg[black]%} दुक्ख %{$reset_color%}%{$fg[cyan]%}%~:%{$reset_color%}$(git_time_since_commit)$(git_prompt_info)%{$fg[red]%}%!%{$reset_color%} $(prompt_char) '
+#PROMPT='%{$fg[blue]%}%m%{$reset_color%}%{$fg_bold[white]%} ओम् %{$reset_color%}%{$fg[cyan]%}%~:%{$reset_color%}$(git_time_since_commit)$(git_prompt_info)
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[green]%}git%{$reset_color%}@%{$bg[white]%}%{$fg[black]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%})"
