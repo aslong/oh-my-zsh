@@ -23,6 +23,7 @@ alias sl=ls # often screw this up
 alias afind='ack-grep -il'
 
 alias find_coffee="find . -type f -name '*.coffee' -print0"
+alias find_js="find . -type f -name '*.js' -print0"
 
 alias reset_rabbit="rabbitmqctl stop_app && rabbitmqctl reset && rabbitmqctl start_app"
 
