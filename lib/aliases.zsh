@@ -40,3 +40,6 @@ alias reset_rabbit="rabbitmqctl stop_app && rabbitmqctl reset && rabbitmqctl sta
 alias fgn="fg %-"
 
 alias chrome_webdev="/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --allow-file-access-from-files --user-data-dir=/Users/$USER/Library/Application\\ Support/ChromeDev"
+
+alias start_elasticsearch="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist"
+alias stop_elasticsearch="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist"
